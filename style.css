@@ -50,3 +50,69 @@
   .org-logo-cop29{height:40px;}
   .org-logo-socar{height:34px; max-width:160px;}
 }
+
+/* Premium footer globe */
+.globe{
+  width:112px;
+  height:112px;
+  border:1px solid rgba(224,179,92,.55);
+  border-radius:50%;
+  position:relative;
+  display:block;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(239,194,118,.18), transparent 28%),
+    radial-gradient(circle at 58% 52%, rgba(239,194,118,.10), transparent 34%),
+    linear-gradient(135deg, rgba(7,27,44,.95), rgba(2,9,16,.95));
+  box-shadow:0 0 30px rgba(200,148,62,.15), inset 0 0 22px rgba(239,194,118,.08);
+  overflow:hidden;
+}
+
+.globe:before{
+  content:"";
+  position:absolute;
+  inset:17px;
+  border:2px solid rgba(239,194,118,.72);
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-radius:50%;
+}
+
+.globe:after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:14px;
+  bottom:14px;
+  width:2px;
+  transform:translateX(-50%);
+  background:linear-gradient(180deg, transparent, rgba(239,194,118,.75), transparent);
+  box-shadow:
+    -22px 0 0 -1px rgba(239,194,118,.35),
+    22px 0 0 -1px rgba(239,194,118,.35);
+  border-radius:50%;
+}
+
+.globe-inner{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg, transparent 48%, rgba(239,194,118,.28) 49%, rgba(239,194,118,.28) 51%, transparent 52%),
+    linear-gradient(0deg, transparent 31%, rgba(239,194,118,.25) 32%, rgba(239,194,118,.25) 34%, transparent 35%, transparent 64%, rgba(239,194,118,.25) 65%, rgba(239,194,118,.25) 67%, transparent 68%);
+  border-radius:50%;
+}
+
+.globe-inner:before{
+  content:"";
+  position:absolute;
+  width:8px;
+  height:8px;
+  left:29px;
+  top:38px;
+  background:var(--gold2);
+  border-radius:50%;
+  box-shadow:
+    21px -10px 0 -1px var(--gold2),
+    39px 8px 0 -1px var(--gold2),
+    50px 33px 0 -1px var(--gold2),
+    19px 44px 0 -1px var(--gold2);
+}
