@@ -1,0 +1,8 @@
+
+.org-logo{
+  height:60px;
+  width:auto;
+  object-fit:contain;
+  margin:0 18px;
+  vertical-align:middle;
+}
