@@ -21,6 +21,7 @@
 .org-logo-bp{height:58px;}
 .org-logo-aioc{height:58px;}
 .org-logo-cop29{height:58px;}
+.org-logo-wuf13{height:58px; max-width:190px;}
 .org-logo-socar{height:48px; max-width:230px;}
 
 .org-logo-row .more{
@@ -37,7 +38,8 @@
   }
   .org-logo-bp,
   .org-logo-aioc,
-  .org-logo-cop29{height:48px;}
+  .org-logo-cop29,
+  .org-logo-wuf13{height:48px;}
   .org-logo-socar{height:40px; max-width:190px;}
 }
 
@@ -47,7 +49,8 @@
   }
   .org-logo-bp,
   .org-logo-aioc,
-  .org-logo-cop29{height:40px;}
+  .org-logo-cop29,
+  .org-logo-wuf13{height:40px;}
   .org-logo-socar{height:34px; max-width:160px;}
 }
 
