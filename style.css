@@ -142,8 +142,9 @@
 
 /* Service Learn More details */
 .service-details{
-  padding:0 0 70px;
-  background:#fff;
+  padding:30px 0 70px;
+  background:#faf5ea;
+  border-top:1px solid #e7d7b3;
 }
 
 .detail-box{
