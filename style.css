@@ -138,3 +138,34 @@
     filter: sepia(100%) saturate(400%) hue-rotate(350deg)
             brightness(1.1);
 }
+
+
+/* Service Learn More details */
+.service-details{
+  padding:0 0 70px;
+  background:#fff;
+}
+
+.detail-box{
+  border:1px solid #e6dfd2;
+  border-radius:8px;
+  padding:28px;
+  margin-bottom:20px;
+  background:#fff;
+  box-shadow:0 10px 25px rgba(0,0,0,.04);
+  scroll-margin-top:120px;
+}
+
+.detail-box h3{
+  font-family:"Cormorant Garamond",serif;
+  font-size:30px;
+  margin:0 0 15px;
+  color:#07111e;
+}
+
+.detail-box p{
+  font-size:15px;
+  line-height:1.8;
+  margin:0;
+  color:#151b25;
+}
