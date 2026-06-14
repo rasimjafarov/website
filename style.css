@@ -134,3 +134,7 @@
   .org-logo-wuf13{height:34px !important; max-width:92px !important;}
   .org-logo-socar{height:28px !important; max-width:115px !important;}
 }
+.headset-icon{
+    filter: sepia(100%) saturate(400%) hue-rotate(350deg)
+            brightness(1.1);
+}
