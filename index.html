@@ -9,6 +9,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+
+<style>
+.translation-layout{display:grid;grid-template-columns:180px 1fr 180px;gap:25px;align-items:start}
+.translation-content{width:100%}
+.side-gallery{display:flex;flex-direction:column;gap:15px}
+.side-gallery img{width:100%;height:130px;object-fit:cover;border-radius:8px;border:1px solid #d8c9ab;box-shadow:0 3px 10px rgba(0,0,0,.08)}
+@media(max-width:1200px){
+.translation-layout{grid-template-columns:1fr}
+.side-gallery{flex-direction:row;flex-wrap:wrap}
+.side-gallery img{width:calc(50% - 8px)}
+}
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -90,6 +102,19 @@
       <div class="container">
 
         <div id="translation-details" class="detail-box">
+
+<div class="translation-layout">
+
+    <div class="side-gallery">
+
+        <img src="shah-deniz-web-400x240.jpg" alt="Shah Deniz">
+        <img src="offshore-team-web-400x240.jpg" alt="Offshore Team">
+        <img src="medical-records-web-400x240.jpg" alt="Medical Records">
+        <img src="pharmaceutical-web-400x240.jpg" alt="Pharmaceutical">
+
+    </div>
+
+    <div class="translation-content">
           <h3>Translation Services</h3>
 
           <p>
@@ -105,6 +130,18 @@
             <li><strong>Business &amp; Corporate Documentation</strong> – official correspondence, business communications, policies, procedures, feasibility studies and corporate reports.</li>
             <li><strong>Media &amp; Publishing</strong> – news articles, press releases, website content, editorial materials and publication-ready texts.</li>
           </ul>
+        </div>
+
+    <div class="side-gallery">
+
+        <img src="contracts-web-400x240.jpg" alt="Contracts">
+        <img src="legal-web-400x240.jpg" alt="Legal">
+        <img src="press-release-web-400x240.jpg" alt="Press Release">
+        <img src="news-articles-web-400x240.jpg" alt="News">
+
+    </div>
+
+</div>
         </div>
 
         <div id="interpretation-details" class="detail-box">
