@@ -185,3 +185,17 @@
 .translation-content p{
   margin-bottom:15px;
 }
+/* Interpretation Services */
+
+#interpretation-details .translation-layout{
+    grid-template-columns:220px 1fr 220px;
+    align-items:start;
+}
+
+#interpretation-details .side-gallery img{
+    height:280px;
+    object-fit:cover;
+    border-radius:8px;
+    border:1px solid #d8c9ab;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
