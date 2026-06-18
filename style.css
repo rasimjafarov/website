@@ -199,3 +199,8 @@
     border:1px solid #d8c9ab;
     box-shadow:0 3px 10px rgba(0,0,0,.08);
 }
+#consulting-details .side-gallery img{
+    width:100%;
+    height:260px;
+    object-fit:contain;
+}
