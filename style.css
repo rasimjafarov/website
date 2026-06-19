@@ -214,3 +214,6 @@
     border:1px solid #d8c9ab;
     box-shadow:0 3px 10px rgba(0,0,0,.08);
 }
+.about-btn{
+    display:none;
+}
