@@ -224,8 +224,8 @@
 
 .about-grid{
   display:grid !important;
-  grid-template-columns:minmax(680px,1fr) 440px !important;
-  gap:70px !important;
+  grid-template-columns:1fr 420px !important;;
+  gap:52px !important;
   align-items:start !important;
 }
 
@@ -490,4 +490,7 @@
   .mission-quote{
     display:none;
   }
+}
+.about-copy .section-kicker.gold{
+  color:#efc276 !important;
 }
