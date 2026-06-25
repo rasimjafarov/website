@@ -361,3 +361,61 @@
     font-size:28px !important;
   }
 }
+
+/* About Me refinements: justified text, SVG icons, mission block */
+.about-copy p{
+  text-align:justify !important;
+  text-justify:inter-word;
+  hyphens:auto;
+}
+
+.about-copy .mission-box{
+  margin-top:32px;
+  padding:24px 28px;
+  border-left:4px solid var(--gold2);
+  background:rgba(239,194,118,.08);
+  border-radius:6px;
+  box-shadow:0 10px 26px rgba(0,0,0,.12);
+  max-width:780px;
+}
+
+.about-copy .mission-box strong{
+  display:block;
+  color:var(--gold2);
+  font-size:14px;
+  font-weight:800;
+  letter-spacing:1.8px;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+
+.about-copy .mission-box p{
+  margin:0 !important;
+  color:#fff !important;
+  font-size:17px !important;
+  line-height:1.78 !important;
+  text-align:left !important;
+  max-width:none !important;
+  hyphens:none;
+}
+
+.experience-card .exp-icon{
+  color:var(--gold2) !important;
+}
+
+.experience-card .stat-svg{
+  width:34px;
+  height:34px;
+  display:block;
+  fill:currentColor;
+}
+
+@media (max-width:560px){
+  .about-copy .mission-box{
+    padding:20px 22px;
+  }
+  .experience-card .stat-svg{
+    width:28px;
+    height:28px;
+  }
+}
