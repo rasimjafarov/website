@@ -224,7 +224,7 @@
 
 .about-grid{
   display:grid !important;
-  grid-template-columns:1fr 420px !important;;
+  grid-template-columns:1fr 420px !important;
   gap:52px !important;
   align-items:start !important;
 }
@@ -371,11 +371,11 @@
 
 @media (max-width:1180px){
   .about-grid{
-    grid-template-columns:minmax(560px,1fr) 400px !important;
-    gap:48px !important;
+    grid-template-columns:1fr 380px !important;
+    gap:40px !important;
   }
   .about-copy p{
-    max-width:760px !important;
+    max-width:none !important;
   }
 }
 
