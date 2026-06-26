@@ -494,3 +494,42 @@
 .about-copy .section-kicker.gold{
   color:#efc276 !important;
 }
+
+
+/* FINAL FIX: keep About achievements column on the right */
+@media (min-width:981px){
+  #about .container.about-grid{
+    width:min(1280px,calc(100% - 48px)) !important;
+    max-width:1280px !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) 420px !important;
+    gap:52px !important;
+    align-items:start !important;
+  }
+
+  #about .about-copy{
+    min-width:0 !important;
+    max-width:none !important;
+  }
+
+  #about .about-copy p{
+    max-width:none !important;
+    font-size:16.5px !important;
+    line-height:1.72 !important;
+    text-align:justify !important;
+  }
+
+  #about .about-copy h2{
+    max-width:none !important;
+  }
+
+  #about .experience-card{
+    width:420px !important;
+    margin-top:96px !important;
+    align-self:start !important;
+  }
+}
+
+#about .about-copy .section-kicker.gold{
+  color:var(--gold2) !important;
+}
