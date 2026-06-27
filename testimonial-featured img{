@@ -620,9 +620,10 @@
 .testimonial-featured img{
   width:100%;
   height:560px;
-  object-fit:cover;
+  object-fit:contain;
   object-position:center;
   display:block;
+  padding:14px;
 }
 
 .featured-caption{
@@ -663,10 +664,11 @@
 .testimonial-gallery img{
   width:100%;
   height:275px;
-  object-fit:cover;
+  object-fit:contain;
   object-position:center;
   display:block;
   background:#fff;
+  padding:10px;
 }
 
 @media (max-width:1180px){
