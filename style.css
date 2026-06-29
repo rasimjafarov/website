@@ -930,3 +930,88 @@ body{
     overflow:hidden !important;
   }
 }
+/* ABSOLUTE MOBILE WIDTH FIX */
+@media (max-width:768px){
+
+  html, body{
+    width:100% !important;
+    max-width:100% !important;
+    overflow-x:hidden !important;
+  }
+
+  main,
+  section,
+  .container,
+  .service-details,
+  .detail-box,
+  .translation-layout,
+  .translation-content,
+  .side-gallery,
+  .about-band,
+  .about-grid,
+  .about-copy{
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    overflow-x:hidden !important;
+  }
+
+  .container{
+    padding-left:14px !important;
+    padding-right:14px !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+
+  .service-details .container{
+    width:100% !important;
+  }
+
+  .translation-layout,
+  .translation-layout[style],
+  #translation-details .translation-layout,
+  #interpretation-details .translation-layout,
+  #editing-details .translation-layout,
+  #consulting-details .translation-layout,
+  #literary-details .translation-layout{
+    display:block !important;
+    grid-template-columns:none !important;
+  }
+
+  .side-gallery{
+    display:block !important;
+  }
+
+  .side-gallery img{
+    width:100% !important;
+    max-width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+  }
+
+  .translation-content{
+    display:block !important;
+  }
+
+  .translation-content p,
+  .translation-content li,
+  .detail-box p,
+  .detail-box li,
+  .about-copy p{
+    font-size:15px !important;
+    line-height:1.65 !important;
+    word-break:normal !important;
+    overflow-wrap:break-word !important;
+  }
+
+  .translation-content ul{
+    padding-left:18px !important;
+    margin-left:0 !important;
+  }
+
+  .detail-box{
+    padding:18px 14px !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+}
