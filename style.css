@@ -799,3 +799,93 @@
     margin-top: 25px !important;
   }
 }
+/* FINAL MOBILE OVERFLOW FIX */
+html,
+body{
+  max-width:100% !important;
+  overflow-x:hidden !important;
+}
+
+@media (max-width:768px){
+
+  *{
+    max-width:100% !important;
+  }
+
+  .container{
+    width:calc(100% - 28px) !important;
+    max-width:100% !important;
+    overflow:hidden !important;
+  }
+
+  .translation-layout,
+  #interpretation-details .translation-layout,
+  #editing-details .translation-layout,
+  #consulting-details .translation-layout,
+  #literary-details .translation-layout{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:18px !important;
+    width:100% !important;
+  }
+
+  .side-gallery{
+    width:100% !important;
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:12px !important;
+  }
+
+  .side-gallery img,
+  #interpretation-details .side-gallery img,
+  #consulting-details .side-gallery img,
+  #literary-details .side-gallery img{
+    width:100% !important;
+    height:auto !important;
+    max-height:260px !important;
+    object-fit:contain !important;
+  }
+
+  .translation-content{
+    width:100% !important;
+    min-width:0 !important;
+  }
+
+  .translation-content ul{
+    padding-left:18px !important;
+  }
+
+  .translation-content li{
+    word-break:normal !important;
+    overflow-wrap:anywhere !important;
+  }
+
+  .detail-box{
+    padding:20px 16px !important;
+    overflow:hidden !important;
+  }
+
+  .testimonials-layout,
+  .testimonial-gallery,
+  .about-grid,
+  .footer-grid,
+  .hero-grid,
+  .hero-stats,
+  .service-grid{
+    grid-template-columns:1fr !important;
+    width:100% !important;
+  }
+
+  .testimonial-featured img,
+  .testimonial-gallery img{
+    width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+  }
+
+  .experience-card,
+  .testimonial-featured,
+  .testimonial-gallery a{
+    width:100% !important;
+  }
+}
