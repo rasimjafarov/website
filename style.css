@@ -1016,3 +1016,14 @@ body{
   }
 }
 .socials{display:flex;align-items:center;gap:18px}.socials a{color:#d4af37;font-size:22px;text-decoration:none;transition:all .25s ease}.socials a:hover{color:#fff;transform:translateY(-2px)}
+.footer-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:170px;
+    height:auto;
+    display:block;
+}
