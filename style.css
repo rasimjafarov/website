@@ -1032,3 +1032,10 @@ body{
   max-width:90px !important;
   height:auto !important;
 }
+.footer-logo img{
+  width:115px !important;
+  max-width:115px !important;
+  height:auto !important;
+  display:block !important;
+  object-fit:contain !important;
+}
