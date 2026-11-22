@@ -1040,3 +1040,15 @@ body{
   display:block !important;
   object-fit:contain !important;
 }
+/* DrRJ — New Hero Background */
+
+.hero .hero-bg {
+    background: url("DrRJ-hero-new-web.jpg")
+                center center / cover no-repeat !important;
+    opacity: 1 !important;
+}
+
+/* Signature already included in background */
+.hero .hero-title-card {
+    display: none !important;
+}
