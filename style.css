@@ -1067,3 +1067,7 @@ body{
 
     opacity: 1 !important;
 }
+/* Remove duplicate signature */
+.hero .hero-title-card {
+    display: none !important;
+}
